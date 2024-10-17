@@ -1,5 +1,5 @@
 import image1 from './images/greek salad.jpg'
-import image2 from './images/bruchetta.svg'
+import image2 from './images/bruchetta.jpeg'
 import image3 from './images/lemon dessert.jpg'
 
 import avatar_john from './images/john.jpeg'
