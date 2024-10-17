@@ -7,7 +7,12 @@ const Specials = () => {
       <div className="section-center specials-center">
         <h1>This Week Specials!</h1>
         <div className="special-button-menu">
-          <a href="#menu" className="btn hero-btn">
+          <a
+            href={require('../../src/menu.pdf')}
+            target="_blank"
+            rel="noreferrer"
+            className="btn hero-btn"
+          >
             Online Menu
           </a>
         </div>

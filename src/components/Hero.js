@@ -1,4 +1,5 @@
 import heroImg from '../images/restauranfood.jpg'
+import { Link } from 'react-router-dom'
 
 const Hero = () => {
   return (
@@ -14,9 +15,12 @@ const Hero = () => {
             elit. Aspernatur quisquam harum nam cumque temporibus explicabo
             dolorum sapiente odio unde dolor?
           </div>
-          <a href="#reservations" className="btn hero-btn ">
+          {/* <a href="/reservations" className="btn hero-btn ">
             Reserve a Table
-          </a>
+          </a> */}
+          <Link to="/reservations" className="btn hero-btn ">
+            Reserve a Table
+          </Link>
         </article>
         <div className="hero-img">
           <img src={heroImg} className="hero-photo" alt="awesome food" />
